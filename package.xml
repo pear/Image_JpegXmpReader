@@ -15,24 +15,24 @@ and/or provide additional information as XMP.</description>
   <email>tom@punkave.com</email>
   <active>yes</active>
  </lead>
- <date>2010-10-25</date>
- <time>23:02:13</time>
+ <date>2010-12-06</date>
+ <time>09:18:19</time>
  <version>
-  <release>0.5.2</release>
+  <release>0.5.3</release>
   <api>0.5.0</api>
  </version>
  <stability>
   <release>beta</release>
   <api>beta</api>
  </stability>
- <license>MIT License</license>
+ <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
  <notes>
-Automatically built QA release
-Bug #15229 Fatal error for files without XMP data - boutell
+Bug #18063 	install to wrong dir
+QA release
  </notes>
  <contents>
-  <dir baseinstalldir="Image" name="/">
-   <file baseinstalldir="Image" md5sum="758283c7d08c3e6b3b55a8d23d6e7318" name="Image/JpegXmpReader.php" role="php" />
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="758283c7d08c3e6b3b55a8d23d6e7318" name="Image/JpegXmpReader.php" role="php" />
   </dir>
  </contents>
  <dependencies>
@@ -69,6 +69,22 @@ Bug #15229 Fatal error for files without XMP data - boutell
    <notes>
 Automatically built QA release
 Bug #15229 Fatal error for files without XMP data - boutell
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.5.3</release>
+    <api>0.5.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2010-12-06</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+Bug #18063 	install to wrong dir
+QA release
    </notes>
   </release>
  </changelog>
