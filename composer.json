@@ -1,0 +1,31 @@
+{
+    "authors": [
+        {
+            "email": "tom@punkave.com",
+            "name": "Tom Boutell",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Image_JpegXmpReader": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Image_JpegXmpReader",
+    "include-path": [
+        "./"
+    ],
+    "license": "MIT",
+    "name": "pear/image_jpegxmpreader",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Image_JpegXmpReader",
+        "source": "https://github.com/pear/Image_JpegXmpReader"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
